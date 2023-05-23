@@ -14,3 +14,5 @@ $databaseConnection = getDatabaseConnection();
 
 
 $page_title = 'Boutique';
+
+require_once "app/view\common\layout.php";
