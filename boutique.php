@@ -15,4 +15,7 @@ $databaseConnection = getDatabaseConnection();
 
 $page_title = 'Boutique';
 
+ob_start();
+require_once "app/view\boutique.view.php";
+$content = ob_get_clean();
 require_once "app/view\common\layout.php";
