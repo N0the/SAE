@@ -42,21 +42,21 @@
                 0 0 5px white,
                 0 0 70px white;
             animation: lumiere 10s infinite linear;
+}
+@keyframes lumiere {
+    0%{
+        text-shadow:
+        0 0 5px white,
+        0 0 5px white,
+        0 0 70px white;
+    }
+    0%{
+        text-shadow:
+        0 0 5px white,
+        0 0 5px white,
+        0 0 70px white;
         }
-        @keyframes lumiere {
-            0%{
-                text-shadow:
-                0 0 5px white,
-                0 0 5px white,
-                0 0 70px white;
-            }
-           0%{
-                text-shadow:
-                0 0 5px white,
-                0 0 5px white,
-                0 0 70px white;
-            }
-        }
+}
     
 .navigation .menunavigation a {
     margin: 100px;
@@ -75,18 +75,18 @@
 animation: lumiere 10s infinite linear;
 }
 @keyframes lumiere {
-0%{
-    text-shadow:
-    0 0 5px white,
-    0 0 5px white,
-    0 0 70px white;
-}
-0%{
-    text-shadow:
-    0 0 5px white,
-    0 0 5px white,
-    0 0 70px white;
-}
+    0%{
+        text-shadow:
+        0 0 5px white,
+        0 0 5px white,
+        0 0 70px white;
+    }
+    0%{
+        text-shadow:
+        0 0 5px white,
+        0 0 5px white,
+        0 0 70px white;
+    }
 }
 .navigation .menunavigation a:hover{
     text-decoration: underline;
@@ -122,18 +122,19 @@ animation: lumiere 10s infinite linear;
 /*main*/
 
 #contact {
-    background-size: contain;
-    background-image: no-repeat ("public/image/contact/contact.jpg");
-
+    padding: 1em;
+    background: contain no-repeat url("../../public/images/contact/contact.png");
 }
 
 .Contacth2 {
+    color: white;
     font-size: 50px;
     margin: 1em 0 1em 0;
     text-align: center;
 }
 
 .Contacth4 {
+    color: white;
     position: absolute;
     font-size: 40px;
     float: left;
