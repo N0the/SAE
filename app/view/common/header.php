@@ -5,7 +5,10 @@
 <head>
     <meta charset = "UTF-8">
     <link rel ="stylesheet" href="public/css/main.css">
-    <title><?= $titre ?></title>
+    <link rel="preconnect" href="https://www.dafont.com/fr/">
+    <link rel="stylesheet" href="https://www.dafont.com/fr/victorian-decade.font">
+    <link rel="stylesheet" href="https://www.dafont.com/fr/tt-prosto-sans.font">
+    <title><?= $page_title ?> - Microbrasserie Omnisciente</title>
 
 </head>
 
