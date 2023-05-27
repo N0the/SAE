@@ -119,6 +119,96 @@ animation: lumiere 10s infinite linear;
     justify-content: center;
 }
 
+/*main*/
+
+#contact {
+    background-size: contain;
+    background-image: no-repeat ("public/image/contact/contact.jpg");
+
+}
+
+.Contacth2 {
+    font-size: 50px;
+    margin: 1em 0 1em 0;
+    text-align: center;
+}
+
+.Contacth4 {
+    position: absolute;
+    font-size: 40px;
+    float: left;
+    margin: 1em 0 1em 9em;
+}
+
+#iconsforcontact {
+    margin: 150px auto 4em 26em;
+    display: grid;
+    grid-template-columns: repeat(4, 2em);
+    gap: 400px;
+}
+
+.logo {
+    position: relative;
+    transition: opacity 2s ease-in-out;
+    display: grid;
+    grid-template-rows: 0;
+}
+
+.logo .iconcontactfront:hover {
+    opacity:0;
+    cursor: pointer;
+}
+
+.sizelogoiconcontact {
+    width: 14em;
+}
+
+textarea {
+    resize: vertical;
+}
+
+form {
+    border-radius: 5px;
+    margin: 0 12em 0 12em;
+    padding: 2em 2em 5em 2em;
+    background-color: rgb(231, 231, 231);
+    font-size: 30px;
+}
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+textarea {
+    font-size: 30px;
+}
+
+.envoyer {
+    position: relative;
+    border-radius: 5px;
+    z-index: 1;
+    background-color: rgb(12, 12, 172);
+    color: white;
+    padding: 10px 10px 10px 10px;
+    margin-top: 27px;
+    float: right;
+    font-size: 35px;
+}
+
+.envoyer::before, #envoyer::after {
+    position: absolute;
+    content: "";
+    z-index: -1;
+}
+
+#ENVOIE:hover {
+    background: rgb(19, 19, 218);
+    box-shadow: 0 0 5px rgb(19, 19, 218), 0 0 25px rgb(19, 19, 218), 0 0 50px rgb(19, 19, 218), 0 0 200px rgb(19, 19, 218);
+}
 
 /*Footer*/
 
@@ -126,30 +216,36 @@ footer{
     background-color: black;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 14em;
     padding-top: 2em;
-    padding-bottom: 2em;
 }
 
 .logofooter {
     width: 10em;
-    margin-left: 14.5em;
+    margin-left: 7em;
+    padding-bottom: -1em;
     margin-bottom: 1em;
 }
 
-#logoicons{
-    margin-left: 5em;
-    display:grid;
-    grid-template-columns: repeat(4, 4em);
-    gap: 60px;
-}
-
-.sizelogoicon{
+.sizelogoiconfooter{
     width: 6em;
 }
+
+#iconsfooter {
+    margin-left:4em;
+    display: grid;
+    grid-template-columns: repeat(4, 2em);
+    column-gap: 100px;
+}
+
+.menufooter p {
+    margin: 170px 0 0 18em;
+}
+
 .menufooter, .menufooter a{
-    margin-top: 1.5em;
     color: white;
-    font-size: 35px;
+    font-size: 25px;
+    position: relative;
 }
 
 .menufooter a:active{
@@ -195,79 +291,4 @@ animation: lumiere 10s infinite linear;
         0 0 5px white,
         0 0 70px white;
     }
-}
-
-/*main*/
-
-#contact {
-    background-size: contain;
-    background: no-repeat ("public/image/contact/contact.jpg");
-
-}
-
-.Contacth2 {
-    font-size: 50px;
-    margin: 1em 0 1em 0;
-    text-align: center;
-}
-
-.Contacth4 {
-    position: absolute;
-    font-size: 20px;
-    float: left;
-    margin: 2em 0 1em 12em;
-}
-
-#iconsforcontact {
-    margin: 100px auto 4em 16em;
-    display: grid;
-    grid-template-columns: repeat(4, 2em);
-    gap: 250px;
-}
-
-.sizelogoiconcontact {
-    width: 10em;
-}
-
-textarea {
-    resize: vertical;
-}
-
-form {
-    border-radius: 5px;
-    margin: 0 12em 0 12em;
-    padding: 2em 2em 5em 2em;
-    background-color: rgb(231, 231, 231);
-    font-size: 20px;
-}
-input[type=text], input[type=email], textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    resize: vertical;
-}
-
-.envoyer {
-    position: relative;
-    border-radius: 5px;
-    z-index: 1;
-    background-color: rgb(12, 12, 172);
-    color: white;
-    padding: 10px 10px 10px 10px;
-    margin-top: 27px;
-    float: right;
-
-}
-
-.envoyer::before, #envoyer::after {
-    position: absolute;
-    content: "";
-    z-index: -1;
-}
-
-#ENVOIE:hover {
-    background: rgb(19, 19, 218);
-    box-shadow: 0 0 5px rgb(19, 19, 218), 0 0 25px rgb(19, 19, 218), 0 0 50px rgb(19, 19, 218), 0 0 200px rgb(19, 19, 218);
 }
