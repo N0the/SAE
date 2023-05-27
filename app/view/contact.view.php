@@ -25,10 +25,19 @@
 
 <h4 class="Contacth4">Nos réseaux pour également nous contacter :</h4>
 <section id="iconsforcontact">
-    <a href="" class="iconcontact"><img src="public\image\logotype\logoyoutube.png" alt="lien vers notre Youtube" class="sizelogoiconcontact"></a>
-    <a href="" class="iconcontact"><img src="public\image\logotype\logofacebook.png" alt="lien vers notre Facebook" class="sizelogoiconcontact"></a>
-    <a href="" class="iconcontact"><img src="public\image\logotype\logoinsta.png" alt="lien vers notre Instagram" class="sizelogoiconcontact"></a>
-    <a href="" class="iconcontact"><img src="public\image\logotype\logomail.png" alt="lien pour envoyer un mail" class="sizelogoiconcontact"></a>
+    <div class="logo">
+        <div class="iconcontactback"><img src="public\images\logotype\logoyoutube.png" class="sizelogoiconcontact"></div>
+        <a href="" class="iconcontactfront"><img src="public\images\logotype\logoyoutube2.png" class="sizelogoiconcontact"></a>
+    </div>
+    <div class="logo">
+        <div class="iconcontactback"><img src="public\images\logotype\logofacebook.png" alt="lien vers notre Facebook" class="sizelogoiconcontact"></div>
+        <a href="" class="iconcontactfront"><img src="public\images\logotype\logofacebook2.png" class="sizelogoiconcontact"></a>
+    </div>
+    <div  class="logo">
+        <div class="iconcontactback"><img src="public\images\logotype\logoinsta.png" alt="lien vers notre Instagram" class="sizelogoiconcontact"></div>
+        <a href="" class="iconcontactfront"><img src="public\images\logotype\logoinsta2.png" class="sizelogoiconcontact"></a>
+    </div>
+
 </section>
 
 </main>
