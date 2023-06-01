@@ -1,0 +1,68 @@
+body{
+    margin:0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Victorian Decade';
+    src: url('font/Victorian_Decade_Demo_Version/ copie.otf') ;
+}
+
+@font-face {
+    font-family: 'Prosto Sans';
+    src: url('font/TT_Prosto_Sans_Trial_Regular/ copie.otf') ;
+}
+.biere_milieu{
+    display: grid;
+    grid-template-columns: 10fr 5fr 2fr 1fr;
+    grid-template-rows: 20fr 1fr;
+    padding-top: 5em;
+    
+}
+main{
+    background-color: black;
+}
+main p{
+    color:white;
+}
+.nom_entier{
+    font-size: 5em;
+    text-align: center;
+    font-weight : bold;
+    padding-bottom: 1em;
+
+}
+.descr{
+    text-align: justify;
+    font-size: 20px;
+}
+aside{
+    padding-left: 1em;
+    margin:1em;
+
+}
+#acheter{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: white;
+    text-align: center;
+    grid-row: 2;
+    font-size: 20px;
+    grid-column: 3;
+}
+#acheter:hover{
+    color:white;
+    background-color: black;
+    transition-duration: 0.5s;
+}
+main img{
+    width:70%;
+}
+.descr{
+    font-size: 25px;
+    padding:0 1em;
+}
+.prix{
+    font-size: 50px;
+    text-align: right;
+    padding-right: 1em;
+}

@@ -29,10 +29,10 @@
 </div>
 
 <div class="photos">
-  <img src="public/images/IMG-3108.jpg" class="photo1">
-  <img src="public/images/IMG-3109.jpg" class="photo2">
-  <img src="public/images/IMG-3110.jpg" class="photo3">
-  <img src="public/images/IMG-3111.jpg" class="photo4">
-  <img src="public/images/IMG-3112.jpg" class="photo5">
-  <img src="public/images/IMG-3113.jpg" class="photo6">
+  <img src="public/images/IMG-3108.jpg">
+  <img src="public/images/IMG-3109.jpg">
+  <img src="public/images/IMG-3110.jpg">
+  <img src="public/images/IMG-3111.jpg">
+  <img src="public/images/IMG-3112.jpg">
+  <img src="public/images/IMG-3113.jpg">
 </div>

@@ -16,7 +16,7 @@
             </div>
             <div  class="logo">
                 <div class="iconcontactback"><img src="public\images\logotype\logomail.png" class="sizelogoiconfooter"></div>
-                <a href="mailto:" target="_blank" class="iconcontactfront"><img src="public\images\logotype\logomail2.png" alt="lien pour envoyer un mail" class="sizelogoiconfooter"></a>
+                <a href="mailto:omniscientebeer@gmail.com" target="_blank" class="iconcontactfront"><img src="public\images\logotype\logomail2.png" alt="lien pour envoyer un mail" class="sizelogoiconfooter"></a>
             </div>
         </section>
     </section>

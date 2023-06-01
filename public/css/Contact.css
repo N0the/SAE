@@ -1,6 +1,7 @@
 #contact {
     padding: 1em;
-    background: contain no-repeat url("../../public/images/contact/contact.png");
+    background:no-repeat url("../images/contact/contact.png");
+    background-size: cover;
 }
 
 .Contacth2 {

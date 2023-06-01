@@ -1,0 +1,49 @@
+main{
+    background: no-repeat url('../images/backgroundbleufonce.jpg');
+    background-size: cover;
+}
+
+
+@font-face {
+ font-family: 'TT_Prosto_Sans_Trial_Black';
+ src: url('../police/TT_Prosto_Sans_Trial_Black.otf') format('opentype');
+}
+
+@font-face {
+ font-family: 'TT_Prosto_Sans_Trial_Bold';
+ src: url('../police/TT_Prosto_Sans_Trial_Bold.otf') format('opentype');
+}
+
+.biere{
+    display: grid;
+    grid-template: repeat(3,1fr)/repeat(3,1fr);
+}
+main img{
+    display: flex;
+    width: 50%;
+    margin:auto;
+    padding-bottom: 1em;
+    border:none;
+}
+
+main a{
+    color:rgb(255, 255, 255);
+    text-align: justify;
+    padding:2em;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'TT_Prosto_Sans_Trial_Black'
+
+}
+.nom_entier{
+    text-align: center;
+    margin-bottom: 1em;
+}
+.prix{
+    text-align: center;
+    font-size: 25px;
+    margin:2em;
+}
+main a:hover{
+    box-shadow:0 0 5px #000000,0 0 25px #000000,0 0 50px #000000, 0 0 200px #000000;
+}
