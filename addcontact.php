@@ -9,8 +9,7 @@ $_SESSION ['success'] = true;
 header("location:". URL . "contact.php");
 exit;
 
-try {
-    insertNewContact($POST['surname'], $_POST['name'], $_POST['email'], $_POST['message'])
-}
+insertNewContact($POST['surname'], $_POST['name'], $_POST['email'], $_POST['message']);
+
 
 ?>
