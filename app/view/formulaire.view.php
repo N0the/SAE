@@ -15,5 +15,5 @@
         <label for="message">Message<span style="color:red">*</span> :</label><br>
         <textarea name="message" id="message" rows="10" placeholder="Mes chers Omniscients..." maxlenght="250" required></textarea>
     </div>
-    <input type="submit" value="ENVOYER" aria-label="Ajouter un talent" class="envoyer" id="ENVOIE">
+    <input type="submit" value="ENVOYER" class="envoyer" id="ENVOIE">
 </form>

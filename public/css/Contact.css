@@ -78,6 +78,7 @@ textarea {
     margin-top: 27px;
     float: right;
     font-size: 35px;
+    cursor: pointer;
 }
 
 .envoyer::before, #envoyer::after {
