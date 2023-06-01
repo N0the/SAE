@@ -8,7 +8,7 @@
 <body>
     <main>
 	<div class="bouton">
-		<img src="public/images/majeur.png" alt="image_capsule">
+		<img src="public/images/Index/majeur.png" alt="image_capsule">
 	<a href="main.php"><p>OUI</p></a>
 </div>
 

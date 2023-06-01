@@ -7,15 +7,15 @@
 
     <h4>Venez découvrir nos bières au festival de la bière à travers notre stand et de nombreuses activités le 7 juin de 9h à 20h !</h4>
 </div>
-    <img src="public/images/rideaugauche.png" class="img1" />
-    <img src="public/images/rideaudroite.png" class="img2" />
+    <img src="public/images/evenement/rideaugauche.png" class="img1" />
+    <img src="public/images/evenement/rideaudroite.png" class="img2" />
 
 <div class="boites">
-  <img src="public/images/boitelegout.png" class ="img3" />
-  <img src="public/images/boiteodorat.png" class ="img4" />
-  <img src="public/images/boitetoucher.png" class ="img5" />
-  <img src="public/images/boitevue.png" class ="img6" />
-  <img src="public/images/boiteouie.png" class ="img7" />
+  <img src="public/images/evenement/boitelegout.png" class ="img3" />
+  <img src="public/images/evenement/boiteodorat.png" class ="img4" />
+  <img src="public/images/evenement/boitetoucher.png" class ="img5" />
+  <img src="public/images/evenement/boitevue.png" class ="img6" />
+  <img src="public/images/evenement/boiteouie.png" class ="img7" />
 </div>
 
 <div class="texteprincipal">
@@ -29,10 +29,10 @@
 </div>
 
 <div class="photos">
-  <img src="public/images/IMG-3108.jpg">
-  <img src="public/images/IMG-3109.jpg">
-  <img src="public/images/IMG-3110.jpg">
-  <img src="public/images/IMG-3111.jpg">
-  <img src="public/images/IMG-3112.jpg">
-  <img src="public/images/IMG-3113.jpg">
+  <img src="public/images/evenement/IMG-3108.jpg">
+  <img src="public/images/evenement/IMG-3109.jpg">
+  <img src="public/images/evenement/IMG-3110.jpg">
+  <img src="public/images/evenement/IMG-3111.jpg">
+  <img src="public/images/evenement/IMG-3112.jpg">
+  <img src="public/images/evenement/IMG-3113.jpg">
 </div>

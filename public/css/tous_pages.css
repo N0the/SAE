@@ -219,6 +219,7 @@ footer{
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 14em;
     padding-top: 2em;
+
 }
 
 .logofooter {

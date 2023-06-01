@@ -3,7 +3,7 @@
     <main>
         <h1>Comment nos potions sont-elles concoctées ?</h1>
 
-        <img src="public/images/etapes_conception_biere.png" alt="schéma des étapes de conception des potions-bières" class="schema">
+        <img src="public/images/notrehistoire/etapes_conception_biere.png" alt="schéma des étapes de conception des potions-bières" class="schema">
 
         <ol> 
             <li><strong>CONCASSAGE</strong> = faciliter la conversion de l’amidon en sucre simple en broyant les céréales maltées.</li><br>
@@ -16,11 +16,11 @@
         <h2>Les créateurs des potions :</h2> 
 
         <section>
-            <img src="public/images/MMI_bonhomme.png" alt="créateurs des potions MMI" class="bonhommes_mmi">
+            <img src="public/images/notrehistoire/MMI_bonhomme.png" alt="créateurs des potions MMI" class="bonhommes_mmi">
 
             <p class="mmi">Ciara <font color="black">------</font> Laura <font color="black">------</font> Lylou <font color="black">----</font> Antoine <font color="black">---</font> Alexandre <font color="black">--</font> Julien</p>
 
-            <img src="public/images/GB_bonhomme.png" alt="créateurs des potions Génie biologique" class="bonhommes_gb">
+            <img src="public/images/notrehistoire/GB_bonhomme.png" alt="créateurs des potions Génie biologique" class="bonhommes_gb">
  
             <p class="gb">Elisabeth <font color="black">--</font> Jean-Paul <font color="black">---</font> Sophie <font color="black">----</font> Yanis </p>
         </section>

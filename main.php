@@ -1,6 +1,7 @@
 <?php
+require_once 'config.php';
 
-$page_title = 'Page_accueil';
+$page_title = 'Accueil';
 ob_start();
 require_once 'app/view/main.view.php';
 $content=ob_get_clean();

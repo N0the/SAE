@@ -12,7 +12,7 @@
             </div>
             <div  class="logo">
                 <div class="iconcontactback"><img src="public\images\logotype\logoinsta.png" class="sizelogoiconfooter"></div>
-                <a href="https://www.instagram.com/omniscientebeer/" class="iconcontactfront" target="_blank"><img src="public\images\logotype\logoinsta2.png" alt="lien vers notre Instagram" class="sizelogoiconfooter"></a>
+                <a href="https://www.instagram.com/omniscientebeer/?next=%2Fomniscientebeer%2F" class="iconcontactfront" target="_blank"><img src="public\images\logotype\logoinsta2.png" alt="lien vers notre Instagram" class="sizelogoiconfooter"></a>
             </div>
             <div  class="logo">
                 <div class="iconcontactback"><img src="public\images\logotype\logomail.png" class="sizelogoiconfooter"></div>
