@@ -10,7 +10,7 @@ $databaseConnection = getDatabaseConnection();
 
 $numBiere = $_GET['num'];
 $biere=getTextBiere($databaseConnection, $numBiere);
-$page_title = $_GET['num'];
+$page_title = 'Produit';
 ob_start();
 require_once 'app/view/produit.view.php';
 $content=ob_get_clean();

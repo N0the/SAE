@@ -3,8 +3,12 @@
         <img src="public/images/mockup/<?= $numBiere?>.png" alt= $numBiere>
     </aside>
     <article>
-    <p class="dqdqd"><?= $biere['descr'] ?></p>
+    <p class="descr"><?= $biere['descr'] ?></p>
         <p class="nom_entier"><?= $biere['nom'] ?></p>
-        <p class="ndqsdqr"><?= $biere['prix'] ?></p>
+        <p class="prix"><?= $biere['prix'] ?></p>
     </article>
+    <div class="bouton">
+                <a href="lien">
+                <button type="bouton" class="acheter">ACHETER</button></a>
+            </div>
 </main>

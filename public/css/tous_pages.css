@@ -240,12 +240,12 @@ footer{
 }
 
 .menufooter p {
-    margin: 170px 0 0 18em;
+    margin: 170px 1em 0 18em;
 }
 
 .menufooter, .menufooter a{
     color: white;
-    font-size: 25px;
+    font-size: 24px;
     position: relative;
 }
 

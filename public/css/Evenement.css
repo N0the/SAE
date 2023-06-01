@@ -1,0 +1,107 @@
+* {
+    background-color: black;
+    color: white
+}
+
+.evenementiel {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 30px;
+}
+
+.texterideaux {
+    margin: 0 310px;
+    margin-top: 110px;
+    text-align: center;
+    font-size: 23px;
+}
+
+.boites {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding-top: 2em;
+    margin-top: 5em;
+    align-content: space-around;
+}
+
+.img1 {
+    float: left;
+    width: 350px;
+    margin-top: -370px;
+}
+
+.img2 {
+    float: right;
+    width: 350px;
+    margin-top: -370px;
+}
+
+.img3 {
+    width: 220px;
+    margin-left: 50px;
+  
+}
+
+.img4 {
+    width: 220px;
+    
+
+}
+
+.img5 {
+    width: 220px;
+
+}
+
+.img6 {
+    width: 220px;
+   
+}
+
+.img7 {
+    width: 220px;
+}
+
+.texteprincipal {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 25px;
+}
+
+.texte2 {
+    margin-top: 80px;
+    font-size: 18px;
+}
+
+.texte3 {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+
+.photo1 {
+    width: 400px;
+    margin-left: 15px;
+}
+
+.photo2 {
+    width: 400px;
+}
+
+.photo3 {
+    width: 400px;
+}
+
+.photo4 {
+    width: 400px;
+    margin-left: 15px;
+}
+
+.photo5 {
+    width: 400px;
+}
+
+.photo6 {
+    width: 400px;
+}
