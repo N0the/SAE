@@ -1,3 +1,3 @@
 <?php
 
-DEFINE('URL', 'http://localhost/omnisciente/');
+DEFINE('URL', 'http://localhost/SAE/');
