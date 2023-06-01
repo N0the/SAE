@@ -1,6 +1,6 @@
 <footer>
     <section id="icons">
-        <a href="accueil.php"  class="logofooter"><img src="public/images/noir/Logo_omnisciente_blanc.png" alt="logo omnisciente représentant les 5 sens" class="logofooter"></a>
+        <a href="main.php"  class="logofooter"><img src="public/images/noir/Logo_omnisciente_blanc.png" alt="logo omnisciente représentant les 5 sens" class="logofooter"></a>
         <section id="iconsfooter">
             <div class="logo">
                 <div class="iconcontactback"><img src="public\images\logotype\logoyoutube.png" alt="lien vers notre Youtube" class="sizelogoiconfooter"></div>
